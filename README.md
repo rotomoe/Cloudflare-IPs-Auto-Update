@@ -10,4 +10,4 @@
 2. `chmod -R 777 Cloudflare-IPs-Auto-Update`  
 3. `./Cloudflare-IPs-Auto-Update.git/Linux-Shell/Nginx/update.sh`
 
-三、更多需求请自行酌情修改代码
+三、可添加到定时计划执行，更多需求请自行酌情修改代码
