@@ -1,6 +1,6 @@
 # Cloudflare IPs 自动更新  
 
-一、在 Linux Shell 中使用，保存为 .txt 文本  
+一、在 Linux Shell 中使用，在你想要保存文件的目录运行，保存为 .txt 文本  
 
 1. `git clone https://github.com/rotomoe/Cloudflare-IPs-Auto-Update.git`  
 
@@ -8,7 +8,7 @@
 
 3. `./Cloudflare-IPs-Auto-Update/Linux-Shell/update.sh`
 
-二、在 Linux Shell 中使用，为 Nginx 生成配置文件  
+二、在 Linux Shell 中使用，在你想要保存配置文件的目录运行，为 Nginx 生成配置文件  
 
 1. `git clone https://github.com/rotomoe/Cloudflare-IPs-Auto-Update.git`  
 
@@ -18,9 +18,9 @@
 
 4. 在 Nginx 配置文件中添加三行内容
 
-`include /www/wwwroot/config/cloudflare/cdn/ips/v4.conf;`  
+`include /前面提到的运行目录/v4.conf;`  
 
-`include /www/wwwroot/config/cloudflare/cdn/ips/v6.conf;`  
+`include /前面提到的运行目录/v6.conf;`  
 
 `real_ip_header X-Forwarded-For;`  
 
